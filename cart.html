@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./cssFiles/Home.css" />
+    <title>Document</title>
+</head>
+<body>
+    <header id="main-header">
+        <nav class="navbar">
+          <div class="logo">
+            <h1>FindFood</h1>
+            <img src="./images/food-ordering-app-logo.avif" alt="logo" />
+          </div>
+          <div>
+            <ul  class="links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="cart.html">Cart</a><span id="cartShow"></span></li>
+              <li><a href="order.html">Prev Orders</a></li>
+              <li><p id="totalPrice"></p></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <div>
+        <button class="btn" id="checkout">Checkout</button>
+    </div>
+      <main class="main-content">
+        <section id="card-container" class="card-container">
+            <!-- cart card -->
+        </section>
+     </main>
+     <footer class="footer">
+        <p>&copy; 2025 FindFood. All rights reserved.</p>
+      </footer>
+      <script src="Cart.js"></script>
+</body>
+</html>

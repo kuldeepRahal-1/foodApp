@@ -1,0 +1,3 @@
+first create home page where we fetch all the food from api and store it in food array the create cards of it with add to cart button and store it in local storage of cart items
+then create cart page with navbar and cart container where we get items from cart local storage and show them in cards with increase ,decrease,delete functionality ,
+then create checkout page where we calculate total of cart items ,and show cart details for checkout.
