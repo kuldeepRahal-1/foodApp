@@ -182,3 +182,93 @@ body {
 .btn:hover {
     background: #e65500;
 }
+/* ================= RESPONSIVE STYLES ================= */
+
+/* For tablets and below (max-width: 768px) */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .links {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .card-container {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        width: 100%;
+    }
+
+    .search {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .btn {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .popup {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    .order-table,
+    .items-table {
+        font-size: 14px;
+    }
+
+    .order-table th, 
+    .order-table td {
+        padding: 8px;
+    }
+
+    .Re-btn {
+        width: 100%;
+        text-align: center;
+        margin: 10px 0 0 0;
+    }
+}
+
+/* For mobile phones (max-width: 480px) */
+@media (max-width: 480px) {
+    .logo img {
+        width: 45px;
+    }
+
+    .links a {
+        font-size: 18px;
+    }
+
+    .card h3 {
+        font-size: 16px;
+    }
+
+    .card p {
+        font-size: 12px;
+    }
+
+    .card button {
+        padding: 6px 10px;
+        font-size: 14px;
+    }
+
+    .meal-img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .order-table th, 
+    .order-table td {
+        font-size: 12px;
+        padding: 6px;
+    }
+
+    .search input {
+        width: 100%;
+    }
+}
